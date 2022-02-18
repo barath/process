@@ -17,7 +17,7 @@ Anyone may apply to be an Editor, and must include one or more requested editori
 
 Any individual who has been involved in proposals to improve the [Solid Specification](https://github.com/solid/specification) has provided a valuable service to the [Solid Project](https://www.solidproject.org) and is encouraged to continue.
 
-Many types of contributions are welcome, including identifying problems, asking questions, and proposing normative changes.
+Contributions are welcome, including identifying problems, asking questions, and proposing normative changes.
 
 There are many topics, problems, or ideas best addressed by a group of people with specific domain expertise in [Solid Panels](#solid-panels).
 
