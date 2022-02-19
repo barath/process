@@ -9,7 +9,7 @@ Anyone may participate in this process. Please read the [Code of Conduct](code-o
 
 ## Editorial Team
 
-The Solid [Editorial Team](https://github.com/orgs/solid/teams/editors) is responsible for the implementation of the Solid Specification process. Members of the Editorial Team are appointed by the Solid Director. The Editorial Team is comprised of all the Editors appointed by the Solid Director, who are listed at [editors.md](editors.md), along with their assignments, contact details, and affiliations. The Editorial Team shepherds Solid development efforts and coordinates with those who participate in Solid Panels and with Stakeholders and Implementers. The Solid Director may also appoint support personnel on an as-needed basis, such as a Release Manager, for organizing the workflow of the specification process.
+The Solid [Editorial Team](https://github.com/orgs/solid/teams/editors) is responsible for the implementation of the Solid Specification process. Members of the Editorial Team are appointed by the Solid Director. The Editorial Team is comprised of all the Editors appointed by the Solid Director, who are listed at [editors.md](editors.md), along with their assignments, contact details, and affiliations. The Editorial Team shepherds Solid and coordinates with those who participate in Solid Panels and with Stakeholders and Implementers. The Solid Director may also appoint support personnel on an as-needed basis, such as a Release Manager, for organizing the workflow of the specification process.
 
 Anyone may apply to be an Editor, and must include one or more requested editorial assignments as part of their application. These requests are reviewed only by the Solid Director. Editor applications that can demonstrate the support of a relevant panel or group of community members will be favorably considered.
 
@@ -19,11 +19,11 @@ Any individual who has been involved in proposals to improve the [Solid Specific
 
 Contributions are welcome, including identifying problems, asking questions, and proposing normative changes.
 
-There are many topics, problems, or ideas best addressed by a group of people with specific domain expertise in [Solid Panels](#solid-panels).
+There are many topics, problems, or ideas best addressed by a group of contributors with specific domain expertise in [Solid Panels](#solid-panels).
 
 ### Solid Panels
 
-Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the [Solid Specification](https://github.com/solid/specification). Domains may be technical, non-technical, or some combination of the two. For example, a Security Panel could focus on the evaluation and advancement of the Solid security model. Only those who have agreed to the [W3C Community Contributor License Agreement](https://www.w3.org/community/about/agreements/cla/) may participate in a Solid Panel.
+Solid Panels are groups of contributors focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the [Solid Specification](https://github.com/solid/specification). Domains may be technical, non-technical, or some combination of the two. For example, a Security Panel could focus on the evaluation and advancement of the Solid security model. Only those who have agreed to the [W3C Community Contributor License Agreement](https://www.w3.org/community/about/agreements/cla/) may participate in a Solid Panel.
 
 New panels may be proposed by submitting an issue to the [solid/process](https://github.com/solid/process) repository. Establishing a new panel requires the endorsement of at least one member of the Editorial Team. To receive endorsement, the proposed panel submission must include:
 
@@ -31,7 +31,7 @@ New panels may be proposed by submitting an issue to the [solid/process](https:/
 1. One or more initiatives that will be actively pursued and tracked in regular panel sessions to advance the stated purpose
 1. Demonstrable support of at least five prospective participants
 
-The panel proposal can be revised until at least one member of the Editorial Team endorses the proposal. Submissions that fail to receive endorsement may be removed by Solid Administrators after six months.
+The panel proposal can be revised until at least one member of the Editorial Team endorses the proposal. Submissions that fail to receive endorsement may be removed by Solid Administrators after 3 months.
 
 Any Editor endorsing a panel is expected to attend the panel regularly, and to provide the panel insight on specification priorities and support the work of the panel.
 
@@ -62,7 +62,8 @@ Stakeholders are those affected by normative changes to the [Solid Specification
 Stakeholders who have opted to identify themselves publicly are listed at [stakeholders.md](stakeholders.md). Anyone may decide to identify themselves publicly as a Solid Stakeholder, but it is not mandatory. Identified stakeholders may be consulted for feedback as part of the editorial process.
 
 ### Implementers
-Solid Implementers are organizations who are implementing the [Solid Specification](https://github.com/solid/specification). A Solid Implementer may be any combination of Identity Provider, Pod Provider, and Application Provider.
+
+Solid Implementers are organizations who are implementing the [Solid Specification](https://github.com/solid/specification). A Solid Implementer may be any combination of Identity Provider, Pod Provider, Application Provider, or a provider of other Solid-related functionality.
 
 ## How to Make Changes
 
@@ -100,9 +101,9 @@ An Editor determines whether a Candidate Proposal includes a substantive change 
 
 When a proposal is first submitted, the Solid Editors will assign a single Editor as the shepherd for the proposal and assign a time window for review and its acceptance or rejection; the time window will be either 1 or 2 months from the date of proposal submission, depending on the complexity of the proposal. This time window includes all discussion and revision that may be needed to improve the proposal. The Solid Director, working with the Solid Editors and any administrative support personnel, will maintain a dashboard of open and closed proposals, time windows for review, and review status.
 
-If an Editor or other person disapproves of Candidate Proposal that is under consideration, they must provide substantive, written comments that contain proposed remedies to the Solid Editors at least 1 week before the end of the review time window. The Solid Editors will consider the comments and suggest possible remedies.
+If a contributor disapproves of Candidate Proposal that is under consideration, they must provide substantive, written comments that contain proposed remedies to the Solid Editors at least 1 week before the end of the review time window. The Solid Editors will consider the comments and suggest possible remedies.
 
-Candidate Proposals with substantive changes must be responsive to comments and objections. If rough consensus cannot be reached among the Solid Editors, a vote may be taken during a meeting of the Editors, and the advancement of the proposal can be blocked by a negative vote by 2/3 of the Editors. Once the Candidate Proposal has successfully passed editorial review, it may be merged by an assigned Editor. The shepherd for a proposal is responsible for ensuring a resolution of the proposal within the time window, and if the shepherd is unable to complete the proposal review during the time window, the Solid Director will appoint a different Editor as shepherd and extend the time window for the proposal by 1 month.
+Candidate Proposals with substantive changes must be responsive to comments and objections. If rough consensus to approve the proposal cannot be reached among the Solid Editors, a vote must be taken during an Solid Editors meeting, and the advancement of the proposal can be blocked by a negative vote by 1/3 of all Editors. Once the Candidate Proposal has successfully passed editorial review, it is merged by its shepherd. The shepherd for a proposal is responsible for ensuring a resolution of the proposal within the time window, and if the shepherd is unable to complete the proposal review during the time window, the Solid Director will appoint a different Editor as shepherd and extend the time window for the proposal by 1 month. If a proposal is not approved, the proposer may resubmit it in revised form no sooner than one month after the final review by the Solid Editors.
 
 Candidate Proposals without substantive changes require one Editor assigned to the material being modified to actively approve the proposal, with no Editors from the Editorial Team actively rejecting, and may be merged immediately by an assigned Editor. The assigned Editor who is shepherding may approve and merge their own non-substantive changes. Anyone from the Editorial Team has the right to revert a non-substantive change, but are encouraged to communicate with the assigned Editor who merged it first. Any revert must be accompanied by a reasonable explanation. If the change is reverted because they believe it to be substantive, that must be included in the explanation.
 
@@ -117,9 +118,6 @@ The policy for the management of Solid vocabularies under the W3C namespace is d
 Repositories requiring editorial review are listed in [editors.md](editors.md#editorial-assignments). Each repository has one or more assigned editors, and only assigned editors are permitted to merge into the main branch of these repositories, per the [proposal review process](#reviewing-proposals).
 
 Editors have [_Admin Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the repositories they are assigned to, and are permitted to grant [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to other contributing authors on the same. All Editors have [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on all repositories requiring editorial review listed in [editors.md](editors.md).
-
-# Test Suite
-Test Suite Developers work with the aim is to develop a [test suite](https://github.com/solid/test-suite) that can be used to verify an implementation against the Solid specification.
 
 # Administration
 
