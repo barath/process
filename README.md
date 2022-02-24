@@ -3,7 +3,7 @@ This repository details how changes to Solid may be proposed and accepted.
 # Solid Specification
 The following describes how changes to the specifications in the Solid ecosystem may be proposed and accepted. Anyone may submit a proposal to alter this process; such proposals will be reviewed only by [Tim Berners-Lee](https://github.com/timbl), who is the Solid Director.
 
-Development in the Solid ecosystem occurs in the [Solid Specifications](https://github.com/solid/specification) repository. The [Unofficial Draft](https://github.com/solid/solid-spec) predating current development is still available for historical reference.
+Development in the Solid ecosystem occurs in the [Solid Specifications](https://github.com/solid/specification) repository. The deprecated [Unofficial Draft](https://github.com/solid/solid-spec) predating current development is still available for historical reference.
 
 Anyone may participate in this process. Please read the [Code of Conduct](code-of-conduct.md) before doing so.
 
