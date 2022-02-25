@@ -55,6 +55,8 @@ Panels may request to have a repository created within the [Solid Github Organiz
 
 Panels may request to have a gitter channel created within the [Solid Gitter Organization](https://gitter.im/solid) by creating an issue in [solid/process](https://github.com/solid/process).
 
+Panels that become inactive can be closed by a majority vote of the Solid Editors.
+
 ## Stakeholders
 
 Stakeholders are those affected by normative changes to the [Solid Specification](https://github.com/solid/specification). There are two types of Stakeholders: [Solid Users](#solid-users) and [Solid Implementers](#solid-implementers). It is important to consider them both when proposing changes, and adhering to the W3C [priority of constituencies](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies) is encouraged. A Stakeholder may be both a user and an implementer.
